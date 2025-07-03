@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .login{
+            background-color: rgb(101, 63, 133);
+            border:10px solid rgb(83, 23, 96);
+            bottom: 50px;
+            cursor: pointer;
+            text-align: center;
+            padding:20px;
+        }
+       .hover-text{
+           color:blue;
+           transition: color 0.3s ease;
+       }
+       .hover-text:hover{
+           color:red;
+       }
+    </style>
+    <form class = "login">
+        <hr>
+        <h1 class="head" style="color: aliceblue;">LOGIN PAGE</h1>
+        <hr>
+        <br>
+        <label style="color: aliceblue;">Enter UserName:
+        <input type="text" id = "user" placeholder="Username" style="border-radius: 10px;">
+        </label>
+        <br>
+        <br>
+        <label style="color: aliceblue;">Enter Password :</label>
+        <input type = "password" id="password" placeholder="Password" style="border-radius: 10px;">
+        <br>
+        <br>
+        <label>
+            <input type="submit" id="submit" style="border-radius: 10px;">
+            <input type="reset" id ="reset" style="border-radius: 10px;">
+        </label>
+    </form>
+</body>
+</html>
